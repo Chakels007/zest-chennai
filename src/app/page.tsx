@@ -162,9 +162,9 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0d0f12] text-gray-100 flex justify-center pb-20 select-none">
+    <div className="min-h-screen bg-[#090a0f] text-gray-100 flex justify-center pb-28 select-none">
       {/* Mobile Screen Shell (Constrained for clean mobile-first view) */}
-      <div className="w-full max-w-md min-h-screen flex flex-col bg-[#0d0f12] shadow-2xl relative border-x border-gray-800/40">
+      <div className="w-full max-w-md min-h-screen flex flex-col bg-[#090a0f] shadow-2xl relative border-x border-white/[0.06]">
         {/* Header */}
         <Header
           selectedNeighborhood={selectedNeighborhood}
