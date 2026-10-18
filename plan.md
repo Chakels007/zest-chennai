@@ -28,8 +28,8 @@ A friend-driven restaurant recommendation & taste graph platform for Chennai, In
 
 | ID | Task | Actionable Steps | Priority | Status |
 | :--- | :--- | :--- | :---: | :---: |
-| **TASK-01** | **Create GitHub Repository** | Create empty repo `zest-chennai` on [github.com/new](https://github.com/new) under `@Chakels007` | **P0** | ⏳ In Progress |
-| **TASK-02** | **Push Codebase to GitHub** | Run `git push -u origin main` once remote repo is created | **P0** | ⏳ Pending Repo |
+| **TASK-01** | **Create GitHub Repository** | Create empty repo `zest-chennai` on [github.com/new](https://github.com/new) under `@Chakels007` | **P0** | ✅ Completed |
+| **TASK-02** | **Push Codebase to GitHub** | Codebase pushed to `https://github.com/Chakels007/zest-chennai.git` (`main` branch) | **P0** | ✅ Completed |
 | **TASK-03** | **Vercel 1-Click Deployment** | Connect GitHub repo to Vercel for public HTTPS preview URL | **P1** | 📋 Next |
 | **TASK-04** | **PWA Install Banner** | Add "Add to Home Screen" prompt for mobile Safari and Android Chrome | **P1** | 📋 Next |
 
