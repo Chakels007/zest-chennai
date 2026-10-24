@@ -18,6 +18,7 @@ import { QuickLoggerModal } from '@/components/QuickLoggerModal';
 import { ConsensusDrawer } from '@/components/ConsensusDrawer';
 import { AuthModal } from '@/components/AuthModal';
 import { WhatsAppShareModal } from '@/components/WhatsAppShareModal';
+import { PWAInstallPrompt } from '@/components/PWAInstallPrompt';
 import {
   Flame,
   Sparkles,
@@ -416,6 +417,9 @@ export default function Home() {
           currentUser={currentUser}
           onLoginSuccess={(u) => setCurrentUser(u)}
         />
+
+        {/* PWA 1-Tap Mobile Install Banner */}
+        <PWAInstallPrompt />
       </div>
     </div>
   );
