@@ -29,7 +29,7 @@ export interface Restaurant {
   id: string;
   name: string;
   slug: string;
-  neighborhood: 'Alwarpet' | 'Nungambakkam' | 'Mylapore' | 'T. Nagar' | 'Poes Garden' | 'Besant Nagar';
+  neighborhood: 'Alwarpet' | 'Nungambakkam' | 'Mylapore' | 'T. Nagar' | 'Poes Garden' | 'Besant Nagar' | 'Anna Nagar' | 'ECR';
   address: string;
   lat: number;
   lng: number;

@@ -10,6 +10,9 @@ export const NEIGHBORHOOD_CENTERS: Record<string, { lat: number; lng: number }> 
   Nungambakkam: { lat: 13.0617, lng: 80.2452 },
   Mylapore: { lat: 13.0339, lng: 80.2698 },
   'T. Nagar': { lat: 13.0418, lng: 80.2392 },
+  'Besant Nagar': { lat: 13.0003, lng: 80.2667 },
+  'Anna Nagar': { lat: 13.0850, lng: 80.2101 },
+  ECR: { lat: 12.8767, lng: 80.2422 },
 };
 
 export function calculateDistanceKm(

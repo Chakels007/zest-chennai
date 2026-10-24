@@ -13,7 +13,7 @@ interface HeaderProps {
   onSearchChange: (query: string) => void;
 }
 
-const NEIGHBORHOODS = ['All', 'Alwarpet', 'Nungambakkam', 'Mylapore', 'T. Nagar'];
+const NEIGHBORHOODS = ['All', 'Alwarpet', 'Nungambakkam', 'Mylapore', 'T. Nagar', 'Besant Nagar', 'Anna Nagar', 'ECR'];
 
 export const Header: React.FC<HeaderProps> = ({
   selectedNeighborhood,
